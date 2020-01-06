@@ -1,0 +1,21 @@
+{
+    "name": "baturox/discordphp",
+    "description": "Discord Web Api PHP",
+    "authors": [
+        {
+            "name": "batuhan sahin",
+            "email": "baturox@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/DiscordPHP.php",
+            "src/Session.php",
+            "src/Request.php"
+        ]
+    }
+
+}
