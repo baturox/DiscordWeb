@@ -4,11 +4,11 @@ include "vendor/autoload.php";
 
 use DiscordPHP\Session;
 
-$clientId = '644515994588676101';
+$clientId = 'YourClientId';
 
-$secret = 'WX2VoGsXcu3yVX_XhLV0FJwRDJRPtlmw';
+$secret = 'YourSecret';
 
-$redirect = 'http://localhost:81/discord-web-hook/example.php';
+$redirect = 'http://localhost/discord-web-hook/example.php';
 
 $scops = ['identify', 'email', 'connections'];
 
